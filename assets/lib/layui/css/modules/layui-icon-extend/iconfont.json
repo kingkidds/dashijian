@@ -1,0 +1,23 @@
+{
+  "id": "3495657",
+  "name": "layui.icon.extend",
+  "font_family": "iconfont",
+  "css_prefix_text": "layui-extend-",
+  "description": "layui图标库扩充",
+  "glyphs": [
+    {
+      "icon_id": "845842",
+      "name": "不显示密码",
+      "font_class": "buxianshimima",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "2766438",
+      "name": "显示密码",
+      "font_class": "xianshimima",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
