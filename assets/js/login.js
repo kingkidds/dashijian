@@ -173,6 +173,8 @@ layui.use(['layer', 'form'], function () {
       })
       //存储token
       localStorage.setItem('token', result.token)
+      //跳转主页
+      location.hr = '/index.html'
     })
   })
 })

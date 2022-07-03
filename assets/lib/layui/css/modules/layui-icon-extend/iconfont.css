@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3495657 */
-  src: url('iconfont.woff2?t=1656749316653') format('woff2'),
-       url('iconfont.woff?t=1656749316653') format('woff'),
-       url('iconfont.ttf?t=1656749316653') format('truetype');
+  src: url('iconfont.woff2?t=1656775180586') format('woff2'),
+       url('iconfont.woff?t=1656775180586') format('woff'),
+       url('iconfont.ttf?t=1656775180586') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,26 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.layui-extend-pinglun:before {
+  content: "\e627";
+}
+
+.layui-extend-home:before {
+  content: "\e7c6";
+}
+
+.layui-extend-tuichu:before {
+  content: "\e618";
+}
+
+.layui-extend-user:before {
+  content: "\e7ae";
+}
+
+.layui-extend-wenzhang:before {
+  content: "\e615";
 }
 
 .layui-extend-buxianshimima:before {
