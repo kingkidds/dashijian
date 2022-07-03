@@ -104,7 +104,9 @@ layui.use(['layer', 'form'], function () {
     e.preventDefault()
     var userinfo = {
       username: $('#form_reg [name=userName]').val(),
-      password: $('#form_reg [name=password]').val()
+      password: $('#form_reg [name=password]').val(),
+      nickname: 'pipi',
+      email: 'pipi@qq.com'
     }
     //console.log(userinfo)
     $.post(
@@ -174,7 +176,7 @@ layui.use(['layer', 'form'], function () {
       //存储token
       localStorage.setItem('token', result.token)
       //跳转主页
-      location.hr = '/index.html'
+      location.href = '/index.html'
     })
   })
 })
